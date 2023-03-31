@@ -1,0 +1,19 @@
+@import '../../common';
+
+.card {
+	background: #FFFFFF;
+	border: 2px solid #000000;
+	box-shadow: 0px 2px 0px #000000;
+	border-radius: 6px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 15px;
+
+	min-width: 326px;
+	min-height: 159px;
+	-webkit-animation-delay:move 10s infinite;
+	cursor: grab;
+ 
+}

@@ -1,0 +1,33 @@
+@import 'common.scss';
+@import 'fonts.scss';
+
+* {
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: $font-text;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  padding-top: 42px;
+  overflow: auto;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+.title {
+  font-family: $font-headline;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: $kanban-title-col;
+  padding-bottom: 36px;
+}

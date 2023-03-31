@@ -1,0 +1,30 @@
+@import '../../common';
+
+.table {
+	padding-bottom: 53px;
+	margin-inline: 1px;
+	display: grid;
+	align-items: stretch;
+	border-radius: 0px 0px 6px 6px;
+	gap: 32px;
+	grid-template-columns: repeat(5, $col-win-width );
+	
+}
+.dragsink {
+  min-width: 326px;
+  background-color: #81818113;
+	animation: fade-out 0.15s ease-in-out both;
+	
+	@keyframes fade-out {
+		from {
+			height: 0px;
+		}
+
+		to {
+			height: 159px;
+		}
+	}
+}
+
+
+

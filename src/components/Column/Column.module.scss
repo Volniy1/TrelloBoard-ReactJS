@@ -1,0 +1,62 @@
+@import '../../common';
+
+.column {
+	display: grid;
+	grid-template-rows: auto 1fr;
+	padding-bottom: 16px;
+	min-width: $col-win-width;
+	background-color: $bg-col-colour;
+	border-radius: 6px 6px 0px 0px;
+	border: $col-border;
+}
+
+.colTitle {
+	border-radius: 6px 6px 0px 0px;
+	padding: 9px;
+	background-color: $col-colour-default;
+	font-family: $font-headline;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: $col-title-txt;
+	width: 100%;
+
+	&_color {
+		&1 {
+			background-color: $col-colour-1;
+		}
+
+		&2 {
+			background-color: $col-colour-2;
+		}
+
+		&3 {
+			background-color: $col-colour-3;
+		}
+
+		&4 {
+			background-color: $col-colour-4;
+		}
+
+		&5 {
+			background-color: $col-colour-5;
+		}
+	}
+}
+
+
+.colbody {
+	padding: 16px 10px;
+	display: grid;
+	min-height: 174px;
+	align-items: center;
+	align-content: flex-start;
+	grid-row-gap: 10px;
+
+	&.over {
+    background-color: #ffffff80;
+  }
+	
+}
